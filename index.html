@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<link rel="stylesheet" href="assets/css/glightbox.min.css" />
 	</head>
 	<body class="is-preload">
 
@@ -60,7 +61,7 @@
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style1">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/FOS.png" alt="" /></a>
+									<a href="images/FOS.png" class="glightbox"><img src="images/FOS.png" alt="" class="image fit" /></a>
 									<div class="content">
 										<h2 class="major">Fatigue Analysis - Why and What?</h2>
 										<p>Cyclic loading, even though lower in magnitude than the material strength can be extremely detrimental to the component structure. Fatigue analysis is important 
@@ -81,7 +82,7 @@
 						<!-- Two -->
 							<section id="two" class="wrapper alt spotlight style2">
 								<div class="inner">
-									<a href="#" class="image"><img src="images/Thread.tif" alt="" /></a>
+									<a href="images/Thread.JPG" class="glightbox"><img src="images/Thread.JPG" alt="" class="image fit" /></a>
 									<div class="content">
 										<h2 class="major">Critical Fastener Fatigue Failure</h2>
 										<p> Critical fasteners in cylinder heads and blocks can cause fatigue failures because they normally experience high mean (assembly) and alternating loads. The bolt bosses for the 
@@ -133,6 +134,11 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script src="assets/js/glightbox.min.js"></script>
+		
+			<script types="text/javascript">
+				const lightbox = GLightbox({ loop: true });
+			</script>
 
 	</body>
 </html>
